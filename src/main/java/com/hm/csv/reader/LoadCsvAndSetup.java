@@ -19,7 +19,7 @@ public class LoadCsvAndSetup {
     private static List<String[]> dataOfSortOrderDefFile = new LinkedList<String[]>();
 
     public static void setup(String fileToBeSortedPath, String sortOrderDefFilePath) {
-        System.out.println("\n **** Setup List of Array **** ");
+        //System.out.println("\n **** Setup List of Array **** ");
         loadFileAndSetupData(fileToBeSortedPath, "fileToBeSorted");
         loadFileAndSetupData(sortOrderDefFilePath, "sortOrderDefFile");
     }

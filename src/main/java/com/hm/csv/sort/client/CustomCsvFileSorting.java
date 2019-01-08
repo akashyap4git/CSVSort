@@ -22,8 +22,8 @@ public class CustomCsvFileSorting {
 
         try {
             LoadCsvAndSetup.setup(CSV_INPUT_FILE_PATH, CSV_SORTING_DEF_FILE_PATH);
-            LoadCsvAndSetup.displayCsvArray(LoadCsvAndSetup.getDataOfFileToBeSorted(), "fileToBeSorted");
-            LoadCsvAndSetup.displayCsvArray(LoadCsvAndSetup.getDataOfSortOrderDefFile(), "sortOrderDefFile");
+            //LoadCsvAndSetup.displayCsvArray(LoadCsvAndSetup.getDataOfFileToBeSorted(), "fileToBeSorted");
+            //LoadCsvAndSetup.displayCsvArray(LoadCsvAndSetup.getDataOfSortOrderDefFile(), "sortOrderDefFile");
 
             SortCsvService sortCsvService = new SortCsvService();
             sortCsvService.applySorting(columnToSortOn, sortOrderDefColumn);
